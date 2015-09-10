@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BinPlace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Settings">Settings</string>
+    <string name="rangeOfFindingRestaurant">음식점 검색 범위</string>
+    <string name="range">범위</string>
+    <string name="PushAlarmSetting">푸쉬알람 설정</string>
+    <string name="SearchSetting">특정 장소 설정</string>
+    <string name="title_activity_local_search_dong">LocalSearchDongActivity</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+
+</resources>

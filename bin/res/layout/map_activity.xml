@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <fragment
+        android:id="@+id/googleMap"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    </fragment>
+
+    <Button
+        android:id="@+id/showRestaurantList"
+        android:layout_width="58dip"
+        android:layout_height="58dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="130dip"
+        android:background="@drawable/list_btn" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#eeeeee"  >
+    </ListView>
+
+    <Button
+        android:id="@+id/menuSlidingView"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dip"
+        android:background="@drawable/ic_settings"
+        android:textSize="16pt" />
+
+</RelativeLayout>

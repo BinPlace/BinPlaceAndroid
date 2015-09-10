@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:orientation="vertical"
+    tools:context="com.example.binplace.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:background="#405780"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dip"
+            android:background="#46b972"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="16dip"
+                android:text="더보기"
+                android:textColor="#ffffff"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/findResButton1"
+            android:layout_width="130dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="50dip"
+            android:layout_marginTop="50dip"
+            android:background="@drawable/buttonshape"
+            android:onClick="findrestaurant_clickListener"
+            android:text="지역별 검색"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/myfavoriteButton1"
+            android:layout_width="130dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="130dip"
+            android:layout_marginLeft="50dip"
+            android:background="@drawable/buttonshape"
+            android:onClick="favorite_clickListener"
+            android:text="즐겨찾기 보기"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+
+        <ImageView
+
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:src="@drawable/ic_icon" 
+            android:layout_marginLeft="60dip"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

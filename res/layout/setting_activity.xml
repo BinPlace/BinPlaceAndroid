@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="세팅"
+        android:textSize="15pt"
+         android:textColor="#ff6487" />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:orientation="horizontal" 
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dip"
+           android:layout_marginTop="20dip"
+            android:gravity="start"
+            android:text="음식점 검색 범위"
+            android:textSize="10pt" 
+             android:textColor="#ff6487"/>
+
+        <Spinner
+            android:id="@+id/rangeSpinner"
+            android:layout_width="154dp"
+            android:layout_height="46dp"
+            android:prompt="@string/range" 
+            android:layout_marginStart="40dip"/>
+        
+    </LinearLayout>
+    
+    
+    <Switch
+        	android:id="@+id/pushSwitch"
+            android:layout_marginStart="20dip"
+            android:textSize="10pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchPadding="30dip"
+            android:text="@string/PushAlarmSetting"
+            android:layout_marginBottom="40dip" 
+             android:textColor="#ff6487"/>
+    
+    <Switch
+        android:id="@+id/searchSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginStart="20dip"
+        android:switchPadding="30dip"
+        android:text="@string/SearchSetting"
+        android:textSize="10pt"
+         android:textColor="#ff6487"
+         />
+
+    <SearchView
+        android:layout_marginStart="20dip"
+        android:textSize = "10pt"
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </SearchView>
+
+</LinearLayout>

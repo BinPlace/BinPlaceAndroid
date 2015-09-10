@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "address">
+        <item>종로구</item>
+        <item>중구</item>
+        <item>용산구</item>
+        <item>성동구</item>
+        <item>광진구</item>
+        <item>동대문구</item>
+        <item>중랑구</item>
+        <item>성북구</item>
+        <item>강북구</item>
+        <item>도봉구</item>
+        <item>노원구</item>
+        <item>은평구</item>
+        <item>서대문구</item>
+        <item>마포구</item>
+        <item>양천구</item>
+        <item>강서구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>영등포구</item>
+        <item>동작구</item>
+        <item>관악구</item>
+        <item>서초구</item>
+        <item>강남구</item>
+        <item>송파구</item>
+        <item>강동구</item>
+    </string-array>
+    
+    <string-array name="jongro">
+        <item>사직동</item>
+        <item>삼청동</item>
+        <item>부암동</item>
+        <item>평창동</item>
+        <item>무악동</item>
+        <item>교남동</item>
+        <item>가회동</item>
+        <item>종로1가동</item>
+        <item>종로2가동</item>
+        <item>종로3가동</item>
+        <item>종로4가동</item>
+        <item>종로5가동</item>
+        <item>종로6가동</item>
+        <item>이화동</item>
+        <item>창신1동</item>
+        <item>창신2동</item>
+        <item>창신3동</item>
+        <item>숭인1동</item>
+        <item>숭인2동</item>
+        <item>청운효자동</item>
+        <item>혜화동</item>
+    </string-array>
+    
+    <string-array name ="junggu">
+		<item>소공동</item>
+		<item>회현동</item>
+		<item>명동</item>
+		<item>필동</item>
+		<item>장충동</item>
+		<item>광희동</item>
+		<item>을지로동</item>
+		<item>신당5동</item>
+		<item>황학동</item>
+		<item>중림동</item>
+		<item>신당동</item>
+		<item>다산동</item>
+		<item>약수동</item>
+		<item>청구동</item>
+		<item>동화동</item>
+
+    </string-array>
+    
+    <string-array name = "yongsan">
+        <item>후암동</item>
+        <item>용산2가동</item>
+        <item>남영동</item>
+        <item>원효로2동</item>
+        <item>효창동</item>
+        <item>용문동</item>
+        <item>이촌1동</item>
+        <item>이촌2동</item>
+        <item>이태원1동</item>
+        <item>이태원2동</item>
+        <item>서빙고동</item>
+        <item>보광동</item>
+        <item>청파동</item>
+        <item>원효로1동</item>
+        <item>한강로동</item>
+        <item>한남동</item>
+	</string-array>
+	
+	<string-array name="sungdong">
+	    <item>왕십리2동</item>
+        <item>마장동</item>
+        <item>사근동</item>
+        <item>행당1동</item>
+        <item>행당2동</item>
+        <item>응봉동</item>
+        <item>금호1가동</item>
+        <item>금호4가동</item>
+        <item>성수1가1동</item>
+        <item>성수1가2동</item>
+        <item>성수2가1동</item>
+        <item>성수2가3동</item>
+        <item>송정동</item>
+        <item>용답동</item>
+        <item>왕십리도선동</item>
+        <item>금호2가동</item>
+        <item>금호3가동</item>
+        <item>옥수동</item>
+</string-array>   
+	
+	<string-array name="gwangjin">
+		<item>화양동</item>
+		<item>군자동</item>
+		<item>중곡1동</item>
+		<item>중곡2동</item>
+		<item>중곡3동</item>
+		<item>중곡4동</item>
+		<item>능동</item>
+		<item>구의1동</item>
+		<item>구의2동</item>
+		<item>구의3동</item>
+		<item>광장동</item>
+		<item>자양1동</item>
+		<item>자양2동</item>
+		<item>자양3동</item>
+		<item>자양4동</item>
+
+	</string-array>
+	
+	<string-array name="dongdaemun">
+	    <item>회기동</item>
+        <item>휘경1동</item>
+        <item>휘경2동</item>
+        <item>청량리동</item>
+        <item>용신동</item>
+        <item>제기동</item>
+        <item>전농1동</item>
+        <item>전농2동</item>
+        <item>답십리1동</item>
+        <item>답십리2동</item>
+        <item>장안1동</item>
+        <item>장안2동</item>
+        <item>이문1동</item>
+        <item>이문2동</item>
+	</string-array>
+	
+	<string-array name="jungrang">
+        <item>면목2동</item>
+        <item>면목4동</item>
+        <item>면목5동</item>
+        <item>면목7동</item>
+        <item>상봉1동</item>
+        <item>상봉2동</item>
+        <item>중화1동</item>
+        <item>중화2동</item>
+        <item>묵1동</item>
+        <item>묵2동</item>
+        <item>망우3동</item>
+        <item>신내1동</item>
+        <item>신내2동</item>
+        <item>면목본동</item>
+        <item>면목3동</item>
+        <item>면목8동</item>
+        <item>망우본동</item>
+    </string-array>
+
+	<string-array name="sungbuk">
+	    <item>돈암1동</item>
+        <item>돈암2동</item>
+        <item>안암동</item>
+        <item>보문동</item>
+        <item>정릉1동</item>
+        <item>정릉2동</item>
+        <item>정릉3동</item>
+        <item>정릉4동</item>
+        <item>길음1동</item>
+        <item>길음2동</item>
+        <item>월곡1동</item>
+        <item>월곡2동</item>
+        <item>장위1동</item>
+        <item>장위2동</item>
+        <item>장위3동</item>
+        <item>성북동</item>
+        <item>삼선동</item>
+        <item>동선동</item>
+        <item>종암동</item>
+        <item>석관동</item>
+	</string-array>
+	
+	<string-array name="gangbuk">
+        <item>번1동</item>
+        <item>번2동</item>
+        <item>번3동</item>
+        <item>수유1동</item>
+        <item>수유2동</item>
+        <item>수유3동</item>
+        <item>삼양동</item>
+        <item>미아동</item>
+        <item>송중동</item>
+        <item>송천동</item>
+        <item>삼각산동</item>
+        <item>우이동</item>
+        <item>인수동</item>
+    </string-array>
+	
+	<string-array name="dobong">
+	    <item>쌍문1동</item>
+        <item>쌍문2동</item>
+        <item>쌍문3동</item>
+        <item>쌍문4동</item>
+        <item>방학1동</item>
+        <item>방학2동</item>
+        <item>방학3동</item>
+        <item>창1동</item>
+        <item>창2동</item>
+        <item>창3동</item>
+        <item>창4동</item>
+        <item>창5동</item>
+        <item>도봉1동</item>
+        <item>도봉2동</item>
+	</string-array>
+	
+	<string-array name="nowon">
+	    <item>월계1동</item>
+        <item>월계2동</item>
+        <item>월계3동</item>
+        <item>공릉2동</item>
+        <item>하계1동</item>
+        <item>하계2동</item>
+        <item>중계본동</item>
+        <item>중계1동</item>
+        <item>중계4동</item>
+        <item>상계1동</item>
+        <item>상계2동</item>
+        <item>상계5동</item>
+        <item>상계8동</item>
+        <item>상계9동</item>
+        <item>상계10동</item>
+        <item>상계3.4동</item>
+        <item>상계6.7동</item>
+        <item>중계2.3동</item>
+        <item>공릉1동</item>
+
+	</string-array>
+	
+	<string-array name="eunpyung">
+	    <item>녹번동</item>
+        <item>불광1동</item>
+        <item>갈현1동</item>
+        <item>갈현2동</item>
+        <item>구산동</item>
+        <item>대조동</item>
+        <item>응암1동</item>
+        <item>응암2동</item>
+        <item>신사1동</item>
+        <item>신사2동</item>
+        <item>증산동</item>
+        <item>수색동</item>
+        <item>진관동</item>
+        <item>불광2동</item>
+        <item>응암3동</item>
+        <item>역촌동</item>
+	</string-array>
+	
+	<string-array name="seodamun">
+        <item>천연동</item>
+        <item>홍제1동</item>
+        <item>홍제3동</item>
+        <item>홍제2동</item>
+        <item>홍은1동</item>
+        <item>홍은2동</item>
+        <item>남가좌1동</item>
+        <item>남가좌2동</item>
+        <item>북가좌1동</item>
+        <item>북가좌2동</item>
+        <item>충현동</item>
+        <item>북아현동</item>
+        <item>신촌동</item>
+        <item>연희동</item>
+    </string-array>
+	
+	<string-array name="mapo">
+	    <item>용강동</item>
+        <item>대흥동</item>
+        <item>염리동</item>
+        <item>신수동</item>
+        <item>서교동</item>
+        <item>합정동</item>
+        <item>망원1동</item>
+        <item>망원2동</item>
+        <item>연남동</item>
+        <item>성산1동</item>
+        <item>성산2동</item>
+        <item>상암동</item>
+        <item>도화동</item>
+        <item>서강동</item>
+        <item>공덕동</item>
+        <item>아현동</item>
+	</string-array>
+	
+	<string-array name="yangchun">
+        <item>목1동</item>
+        <item>목2동</item>
+        <item>목3동</item>
+        <item>목4동</item>
+        <item>신월1동</item>
+        <item>신월2동</item>
+        <item>신월3동</item>
+        <item>신월4동</item>
+        <item>신월5동</item>
+        <item>신월6동</item>
+        <item>신월7동</item>
+        <item>신정1동</item>
+        <item>신정2동</item>
+        <item>신정3동</item>
+        <item>신정6동</item>
+        <item>신정7동</item>
+        <item>목5동</item>
+        <item>신정4동</item>
+
+	</string-array>
+	
+	<string-array name="gangseo">
+	    <item>염창동</item>
+        <item>등촌1동</item>
+        <item>등촌2동</item>
+        <item>등촌3동</item>
+        <item>화곡본동</item>
+        <item>화곡2동</item>
+        <item>화곡3동</item>
+        <item>화곡4동</item>
+        <item>화곡6동</item>
+        <item>화곡8동</item>
+        <item>가양1동</item>
+        <item>가양2동</item>
+        <item>가양3동</item>
+        <item>발산1동</item>
+        <item>공항동</item>
+        <item>방화1동</item>
+        <item>방화2동</item>
+        <item>방화3동</item>
+        <item>화곡1동</item>
+        <item>우장산동</item>
+
+	</string-array>
+	
+	<string-array name="guro">
+	    <item>신도림동</item>
+        <item>구로1동</item>
+        <item>구로3동</item>
+        <item>구로4동</item>
+        <item>구로5동</item>
+        <item>고척1동</item>
+        <item>고척2동</item>
+        <item>개봉2동</item>
+        <item>개봉3동</item>
+        <item>오류1동</item>
+        <item>오류2동</item>
+        <item>수궁동</item>
+        <item>가리봉동</item>
+        <item>구로2동</item>
+        <item>개봉1동</item>
+
+	</string-array>
+	
+	<string-array name="geumchun">
+        <item>가산동</item>
+        <item>독산1동</item>
+        <item>독산2동</item>
+        <item>독산3동</item>
+        <item>독산4동</item>
+        <item>시흥1동</item>
+        <item>시흥2동</item>
+        <item>시흥3동</item>
+        <item>시흥4동</item>
+        <item>시흥5동</item>
+
+	</string-array>
+	
+	<string-array name="yeongdeungpo">
+	    <item>여의도동</item>
+        <item>당산1동</item>
+        <item>당산2동</item>
+        <item>양평1동</item>
+        <item>양평2동</item>
+        <item>신길1동</item>
+        <item>신길3동</item>
+        <item>신길4동</item>
+        <item>신길5동</item>
+        <item>신길6동</item>
+        <item>신길7동</item>
+        <item>대림1동</item>
+        <item>대림2동</item>
+        <item>대림3동</item>
+        <item>영등포본동</item>
+        <item>영등포동</item>
+        <item>도림동</item>
+        <item>문래동</item>
+
+	</string-array>
+	
+	<string-array name="dongjak">
+	    <item>노량진2동</item>
+        <item>상도1동</item>
+        <item>상도2동</item>
+        <item>상도3동</item>
+        <item>상도4동</item>
+        <item>사당1동</item>
+        <item>사당3동</item>
+        <item>사당4동</item>
+        <item>사당5동</item>
+        <item>대방동</item>
+        <item>신대방1동</item>
+        <item>신대방2동</item>
+        <item>흑석동</item>
+        <item>노량진1동</item>
+        <item>사당2동</item>
+	</string-array>
+	
+	<string-array name="gwanak">
+	    <item>보라매동</item>
+        <item>청림동</item>
+        <item>행운동</item>
+        <item>낙성대동</item>
+        <item>중앙동</item>
+        <item>인헌동</item>
+        <item>남현동</item>
+        <item>서원동</item>
+        <item>신원동</item>
+        <item>서림동</item>
+        <item>신사동</item>
+        <item>신림동</item>
+        <item>난향동</item>
+        <item>조원동</item>
+        <item>대학동</item>
+        <item>은천동</item>
+        <item>성현동</item>
+        <item>청룡동</item>
+        <item>난곡동</item>
+        <item>삼성동</item>
+        <item>미성동</item>
+        
+	</string-array>
+	
+	<string-array name="seocho">
+	    <item>서초1동</item>
+        <item>서초2동</item>
+        <item>서초3동</item>
+        <item>서초4동</item>
+        <item>잠원동</item>
+        <item>반포본동</item>
+        <item>반포1동</item>
+        <item>반포2동</item>
+        <item>반포3동</item>
+        <item>반포4동</item>
+        <item>방배본동</item>
+        <item>방배1동</item>
+        <item>방배2동</item>
+        <item>방배3동</item>
+        <item>방배4동</item>
+        <item>양재1동</item>
+        <item>양재2동</item>
+        <item>내곡동</item>
+
+	</string-array>
+	
+	<string-array name="gangnam">
+        <item>신사동</item>
+        <item>논현1동</item>
+        <item>논현2동</item>
+        <item>삼성1동</item>
+        <item>삼성2동</item>
+        <item>대치1동</item>
+        <item>대치4동</item>
+        <item>역삼1동</item>
+        <item>역삼2동</item>
+        <item>도곡1동</item>
+        <item>도곡2동</item>
+        <item>개포1동</item>
+        <item>개포4동</item>
+        <item>일원본동</item>
+        <item>일원1동</item>
+        <item>일원2동</item>
+        <item>수서동</item>
+        <item>세곡동</item>
+        <item>압구정동</item>
+        <item>청담동</item>
+        <item>대치2동</item>
+        <item>개포2동</item>
+    </string-array>
+    
+	<string-array name="songpa">
+	    <item>풍납1동</item>
+        <item>풍납2동</item>
+        <item>거여1동</item>
+        <item>거여2동</item>
+        <item>마천1동</item>
+        <item>마천2동</item>
+        <item>방이1동</item>
+        <item>방이2동</item>
+        <item>오륜동</item>
+        <item>오금동</item>
+        <item>송파1동</item>
+        <item>송파2동</item>
+        <item>석촌동</item>
+        <item>삼전동</item>
+        <item>가락본동</item>
+        <item>가락1동</item>
+        <item>가락2동</item>
+        <item>문정1동</item>
+        <item>문정2동</item>
+        <item>장지동</item>
+        <item>잠실본동</item>
+        <item>잠실4동</item>
+        <item>잠실6동</item>
+        <item>잠실7동</item>
+        <item>잠실2동</item>
+        <item>잠실3동</item>
+
+    </string-array>
+    
+	<string-array name="gangdong">
+	    <item>강일동</item>
+        <item>상일동</item>
+        <item>명일1동</item>
+        <item>명일2동</item>
+        <item>고덕1동</item>
+        <item>고덕2동</item>
+        <item>암사2동</item>
+        <item>암사3동</item>
+        <item>천호1동</item>
+        <item>천호3동</item>
+        <item>성내1동</item>
+        <item>성내2동</item>
+        <item>성내3동</item>
+        <item>둔촌1동</item>
+        <item>둔촌2동</item>
+        <item>암사1동</item>
+        <item>천호2동</item>
+        <item>길동</item>
+	</string-array>
+	
+</resources>

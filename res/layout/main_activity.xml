@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.binplace.MainActivity" 
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dip"
+        android:layout_marginTop="40dip"
+        android:background="#ff3487"
+        android:gravity="center_horizontal"
+        android:text="빈 자리"
+        android:textColor="#ff6487"
+        android:textSize="24pt" />
+
+    <Button
+        android:id="@+id/findResButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center_horizontal"
+        android:text="음식점 찾기"
+        android:textAlignment="gravity"
+        android:textColor="#ff6487" />
+
+    <Button
+        android:id="@+id/myfavoriteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾기 보기"
+        android:gravity="center_horizontal"
+         android:textColor="#ff6487"
+        />
+     <Button
+        android:id="@+id/settingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="세팅"
+        android:gravity="center_horizontal"
+         android:textColor="#ff6487"
+        />
+</LinearLayout>
+
+<!--맨처음 화면 -->
